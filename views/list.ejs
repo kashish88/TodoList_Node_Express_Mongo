@@ -1,0 +1,88 @@
+<%- include("header") -%>
+<div class="box1" id="heading">
+       
+    <h1>Today</h1>
+    </div>
+    
+    <div class="box">
+ 
+  <% newListItems.forEach(function(item){ %>
+     <form action="/delete"  method="post">
+     <div class="item">
+         <div class="round">
+          
+         <input type="checkbox" name="checkbox" value="<%=item._id %>"onChange="this.form.submit()"id="checkbox">
+         <label for="checkbox"></label>
+     
+         </div>
+         <p><%= item.name %></p>
+        <br>
+     </div>
+     
+     </form>
+    <% }); %>
+  <!--
+     <form >
+     <div class="item">
+         <div class="round">
+         <input type="checkbox" id="checkbox">
+         
+         <label for="checkbox"></label>
+         </div>
+         <p>Enjoy the party</p>
+        <br>
+     </div>
+     
+     </form>
+  
+     <form >
+     <div class="item">
+         <div class="round">
+         <input type="checkbox" id="checkbox">
+       
+         <label for="checkbox"></label>
+         </div>
+         <p>Codingyaan welcomes you</p>
+        <br>
+     </div>
+     
+     </form>
+  
+     <form >
+     <div class="item">
+         <div class="round">
+         <input type="checkbox" id="checkbox">
+         
+         <label for="checkbox"></label>
+         </div>
+         <p>PLS like</p>
+        <br>
+     </div>
+     
+     </form>
+  
+     <form >
+     <div class="item">
+         <div class="round">
+         <input type="checkbox"id="checkbox">
+        
+         <label for="checkbox"></label>
+         </div>
+         <p>HEY GUYS</p>
+        <br>
+     </div>
+     
+     </form>
+  
+    -->
+    <form class="item" action="/" method="post"   >
+     <input type="text" name="n" placeholder="new"><hr>
+     <button id="b" type="submit" <span id="s2"></span>+</span></button> 
+ </form>
+    </div>
+    
+   
+ 
+ 
+
+

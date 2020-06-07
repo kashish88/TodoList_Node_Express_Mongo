@@ -1,0 +1,143 @@
+body{
+    background-image: url('todo2.png');
+    background-repeat: no-repeat;
+    background-size: 1550px 900px;
+}
+.html{
+    background-color:#E4E9FD ;
+}
+h1{
+    color: #7037E9;
+    padding: 10px;
+}
+.box{
+    max-width: 370px;
+    margin-left: 590px ;
+    margin-top:-20px;
+    border-radius: 3px;
+   background-color: white;
+
+}
+.box1{
+    max-width: 370px;
+    margin-left: 590px ;
+    margin-top:130px;
+    border-radius: 5px;
+   background-color: white;
+  background-image: url(icon.png);
+  background-repeat: no-repeat;
+  height:100px;
+  
+}
+
+#heading{
+    background-color:white;
+    text-align: center;
+    margin-left: 590px;
+margin-top: 100px;
+   font-size: 18px;
+}
+
+
+input[type="text"]{
+    text-align: center;
+    height: 40px;
+   
+    border: none;
+    background: transparent;
+    font-size: 30px;
+    font-weight: 200;
+    width: 313px;
+    
+}
+input[type="text"]:focus{
+    outline: none;
+    box-shadow: inset 0 -3px 0 0 tomato;
+}
+::placeholder{
+    
+    opacity: 1;
+    
+}
+p{
+    font-size: 20px;
+   margin-left: 80px;
+   margin-top:-20px;
+}
+.round {
+  position: relative;
+}
+
+.round label {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 28px;
+  left: 10px;
+  position: absolute;
+  top: 0;
+  width: 28px;
+}
+
+.round label:after {
+  border: 2px solid #fff;
+  border-top: none;
+  border-right: none;
+  content: "";
+  height: 6px;
+  left: 7px;
+  opacity: 0;
+  position: absolute;
+  top: 8px;
+  transform: rotate(-45deg);
+  width: 12px;
+}
+
+.round input[type="checkbox"] {
+  visibility: hidden;
+}
+
+.round input[type="checkbox"]:checked + label {
+  background-color: #7037E9;
+  border-color: #7037E9;
+}
+
+.round input[type="checkbox"]:checked + label:after {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+#b{
+   width:55px;
+   height:50px;
+   background-color: rgb(245, 182, 65);
+   border: none;
+  border-radius: 50%;
+  
+   text-align: center;
+  
+ 
+   font-size: 36px;
+   margin-left: -30px;
+   
+   cursor: pointer;
+   color: white;
+}
+#s2
+{
+   font-size: 90px;
+ 
+}
+form.item{
+    text-align: center;
+   
+}
